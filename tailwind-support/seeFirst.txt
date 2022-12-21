@@ -1,0 +1,9 @@
+Hi, 
+If you are wondering why i am using tailwind this way then this is for you ->
+Actually i have tried all th ways but i cant install tailwind successfully, everytime insallation get
+stuck at at " npx tailwind init " saying cant find all the modules, i have wasted my 4 days in just trying
+to install it successfully but every time i fails, so it was the only way left for me to use tailwind,
+as i am learner i can't afford for time wasting on this, maybe in future i will install tailwind properly
+and successfully.
+Thanks ❤
+- Rahulj9a.

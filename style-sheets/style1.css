@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Amatic+SC:wght@700&family=Dancing+Script&family=Nanum+Myeongjo&display=swap");
+
+main {
+  margin: auto;
+  font-family: "Chakra Petch", sans-serif;
+}
+ 
+     
+    
+#nav-container {
+  /*  background-color: #06283D; */
+  background-color: black;
+  /*  width:400px; */
+  color: white;
+    
+    backdrop-filter: blur(10px);
+    background-color: rgba(2, 2, 2, 0.486);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 0px rgba(255,255,255,0.4) solid;
+    border-bottom: 0px rgba(40,40,40,0.35) solid;
+    border-right: 0px rgba(40,40,40,0.35) solid;
+}
+
+/* #main-container{
+     
+} */
+#section1 {
+  background-image: url("../Images/section1-Img.jpg");
+}
+#section2 {
+  background-image: url("../Images/freeimg_64369467freejpg850.jpg");
+}
+#section3 {
+  background-image: url("../Images/pexels-lukas-669615.jpg");
+}
+#section4 {
+  background-image: url("../Images/pexels-alex-andrews-821754.jpg");
+}
+.highlighted {
+  color: #47b5ff;
+}
+#heading-container {
+  /* background-color:#06283D;   */
+  background-color: black;
+  border: 1px solid white;
+  color: #dff6ff;
+}
+.nav-links {
+  color: #dff6ff;
+}
+
+.fa-twitter {
+  font-size: 30px;
+  color: grey;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.fa-linkedin {
+  font-size: 30px;
+  color: grey;
+}
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+.fa-github {
+  font-size: 30px;
+  color: grey;
+}
+.fa-github:hover {
+  color: white;
+}
+.fa-instagram {
+  font-size: 30px;
+  color: grey;
+}
+.fa-instagram:hover {
+  color: #bc2a8d;
+}
+.slide {
+  transition: opacity 0.4s ease-in-out;
+}
+.slide:first-child {
+  background: url("../Images/section1-Img.jpg") no-repeat center center/cover;
+}
+.slide:nth-child(2) {
+  background: url("../Images/pexels-lukas-669615.jpg") no-repeat center
+    center/cover;
+}
+.slide:nth-child(3){
+   background: url() no-repeat center center/cover;
+ }
+  .slide:nth-child(4){
+   background: url() no-repeat center center/cover;
+ }
+  .slide:nth-child(5){
+   background: url() no-repeat center center/cover;
+ }
+
+.slide.opacity-100 .content {
+  left: 0;
+  transition: all 0.7s ease-in-out;
+}
+
+.rotate-45{
+  transform: rotate(-45deg);
+}
+.rotate45{
+  transform: rotate(45deg);
+}
+
+
