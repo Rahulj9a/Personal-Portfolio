@@ -113,11 +113,12 @@ main {
     background-size: contain;
    background-position: center;
  }
- .slide:nth-child(9){
+ .slide:nth-child(10){
    background: url("../Images/Desktop/SinglePageWebsite.png") no-repeat center center/cover;
     background-size: contain;
    background-position: center;
  }
+  
 
  @media (max-width:640px){
   .slide:first-child {
