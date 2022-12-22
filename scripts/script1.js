@@ -36,7 +36,7 @@ let toggleBtn = document.getElementById("toggleButton");
 let slideBtnImg=document.getElementById("slideBtnImg")
 toggleBtn.addEventListener("click", showNav);
 function showNav() {
-     navBar.classList.toggle("-left-72");
+     navBar.classList.toggle("translate-x-72");
     slideBtnImg.classList.toggle("rotate-180");
      
 

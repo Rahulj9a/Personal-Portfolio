@@ -15,9 +15,11 @@
 
 <body>
     <main class="absolute w-full h-full ">
-        <div id="nav-container" class="-left-72 lg:left-0 h-full fixed w-72 lg:w-1/4 z-20 flex flex-col ">
+        <div id="nav-container"
+            class="trans bg-gray-300 -left-72 lg:left-0 h-full fixed w-72 lg:w-1/4 z-20 flex flex-col">
 
-            <div id="toggleButton" class=" absolute lg:hidden flex flex-col -space-y-4 top-2 left-72 px-1">
+            <div id="toggleButton"
+                class=" absolute lg:hidden flex flex-col -space-y-4 top-2 left-72 p-2 rounded-full bg-opacity-40 bg-white">
 
                 <span class="w-8 h-fit block"><img class="rotate-180" id="slideBtnImg" src="./Icons/icon-arrow.png" />
                 </span>
@@ -33,18 +35,23 @@
                         </p>
                     </div>
                 </div>
-                <nav class="flex flex-col my-5 space-y-6 items-center">
-                    <a href="#sectionLink1" class="nav-links text-xl hover:border-x-4 hover:px-5 rounded-md">Intro</a>
-                    <a href="#sectionLink2" class="nav-links text-xl hover:border-x-4 hover:px-5 rounded-md"> About
+                <nav class="flex flex-col my-5 space-y-6 items-center ">
+                    <a href="#sectionLink1"
+                        class="nav-links  text-xl hover:border-x-4 hover:px-5 rounded-md border-white">Intro</a>
+                    <a href="#sectionLink2"
+                        class="nav-links  text-xl hover:border-x-4 hover:px-5 rounded-md border-white"> About
                         Me</a>
-                    <a href="#sectionLink3" class="nav-links text-xl hover:border-x-4 hover:px-5 rounded-md"> Projects
+                    <a href="#sectionLink3"
+                        class="nav-links  text-xl hover:border-x-4 hover:px-5 rounded-md border-white"> Projects
                     </a>
-                    <a href="#sectionLink4" class="nav-links text-xl hover:border-x-4 hover:px-5 rounded-md"> Contact
+                    <a href="#sectionLink4"
+                        class="nav-links  text-xl hover:border-x-4 hover:px-5 rounded-md border-white"> Contact
                         Me</a>
 
                 </nav>
                 <div class="flex flex-col my-5 space-y-6 items-center">
-                    <input type="button" value="Download Resume" onclick="DownloadFile('./DownDocs/Resume-1.pdf')" class="text-xl hover:border-x-4 hover:px-5 rounded-md"/>
+                    <input type="button" value="Download Resume" onclick="DownloadFile('./DownDocs/Resume-1.pdf')"
+                        class="text-xl hover:border-x-4 border-white hover:px-5 rounded-md" />
                 </div>
                 <div id="socialMedia" class="flex absolute justify-around w-full py-2">
                     <a href="https://twitter.com/rahulj9a" target="_blank" class="w-8">
@@ -178,7 +185,7 @@
                         <div class="slide opacity-100 absolute top-0 left-0 w-full h-full" id="slide1">
 
                             <div
-                                class="content absolute bottom-20 bg-white text-black  w-72 h-fit p-2 opacity-80 text-opacity-100 font-semibold -left-72 ">
+                                class="content absolute bottom-2 bg-white text-black  w-56 md:w-96 h-fit p-2 bg-opacity-80   font-semibold -left-72 ">
                                 <h1 class="text-lg">Text-n-speak</h1>
                                 <p class="text-sm">Build with HTML, CSS, JS and Web API, this project can turn your text
                                     into voice.</p>
@@ -191,7 +198,7 @@
                         <div class="slide opacity-0 absolute top-0 left-0 w-full h-full" id="slide2">
 
                             <div
-                                class="content absolute bottom-20 bg-white text-black  w-72 h-fit p-2 opacity-80 text-opacity-100 font-semibold -left-72">
+                                class="content absolute bottom-2 bg-white text-black w-56 md:w-96 h-fit p-2 bg-opacity-80  font-semibold -left-72">
                                 <h1 class="text-lg">Speak-n-type</h1>
                                 <p class="text-sm">Build with HTML, CSS, JS and Web API, this project can turn your
                                     voice into text</p>
@@ -202,9 +209,10 @@
                         <div class="slide opacity-0 absolute top-0 left-0 w-full h-full" id="slide2">
 
                             <div
-                                class="content absolute bottom-20 bg-white text-black  w-72 h-fit p-2 opacity-80 text-opacity-100 font-semibold -left-72">
+                                class="content absolute bottom-2 bg-white text-black  w-56 md:w-96 h-fit p-2 bg-opacity-80  font-semibold -left-72">
                                 <h1 class="text-lg">TextToAE</h1>
-                                <p class="text-sm">Build with React, you can use this webApp to edit your text</p>
+                                <p class="text-sm">Build with React and Bootstrap you can use this webApp to edit your
+                                    text</p>
                             </div>
 
 
@@ -212,11 +220,9 @@
                         <div class="slide opacity-0 absolute top-0 left-0 w-full h-full" id="slide2">
 
                             <div
-                                class="content absolute bottom-20 bg-white text-black  w-72 h-fit p-2 opacity-80 text-opacity-100 font-semibold -left-72">
+                                class="content absolute bottom-2 bg-white text-black  w-56 md:w-96 h-fit p-2 bg-opacity-80  font-semibold -left-72">
                                 <h1 class="text-lg">NewsAPP</h1>
-                                <p class="text-sm">Build with React,this web-app show you latest news. Unluckily this
-                                    can't be deployed due to newsAPI policies. But still you can review code (both class
-                                    and functional based)</p>
+                                <p class="text-sm">Build with React and Bootstrap,this web-app show you latest news.</p>
                             </div>
 
 
@@ -224,10 +230,69 @@
                         <div class="slide opacity-0 absolute top-0 left-0 w-full h-full" id="slide2">
 
                             <div
-                                class="content absolute bottom-20 bg-white text-black  w-72 h-24 p-2 opacity-80 text-opacity-100 font-semibold -left-72">
+                                class="content absolute bottom-2 bg-white text-black  w-56 md:w-96 h-24 p-2 bg-opacity-80  font-semibold -left-72">
                                 <h1 class="text-lg">E-commerce WebAPP</h1>
-                                <p class="text-sm">Build with react, this is an E-commerce Web-APP</p>
+                                <p class="text-sm">Build with React and Tailwind CSS, this is an E-commerce Web-APP</p>
                             </div>
+
+
+                        </div>
+                        <div class="slide opacity-0 absolute top-0 left-0 w-full h-full" id="slide2">
+
+                            <div
+                                class="content absolute bottom-2 bg-white text-black  w-56 md:w-96 h-24 p-2 bg-opacity-80  font-semibold -left-72">
+                                <h1 class="text-lg">drum-kit</h1>
+                                <p class="text-sm">Build with HTML, CSS and JS, this is an drum kit</p>
+                            </div>
+
+
+                        </div>
+                        <div class="slide opacity-0 absolute top-0 left-0 w-full h-full" id="slide2">
+
+                            <div
+                                class="content absolute bottom-2 bg-white text-black  w-56 md:w-96 h-24 p-2 bg-opacity-80  font-semibold -left-72">
+                                <h1 class="text-lg">Landing Page</h1>
+                                <p class="text-sm">Build with HTML, CSS and JS, this is an Landing Page of Sunny Side
+                                    Agency</p>
+                            </div>
+
+
+
+                        </div>
+                        <div class="slide opacity-0 absolute top-0 left-0 w-full h-full" id="slide2">
+
+                            <div
+                                class="content absolute bottom-2 bg-white text-black  w-56 md:w-96 h-24 p-2 bg-opacity-80  font-semibold -left-72">
+                                <h1 class="text-lg">Dashboard</h1>
+                                <p class="text-sm">Build with HTML and CSS, this is just an Time Tracking Dashboard</p>
+                            </div>
+
+
+
+                        </div>
+                        <div class="slide opacity-0 absolute top-0 left-0 w-full h-full" id="slide2">
+
+                            <div
+                                class="content absolute bottom-2 bg-white text-black  w-56 md:w-96 h-24 p-2 bg-opacity-80  font-semibold -left-72">
+                                <h1 class="text-lg">Contact List</h1>
+                                <p class="text-sm">Build with HTML, CSS and JS, you can save your contacts in your local
+                                    storage and can filter them.
+                                </p>
+                            </div>
+
+
+
+                        </div>
+                        <div class="slide opacity-0 absolute top-0 left-0 w-full h-full" id="slide2">
+
+                            <div
+                                class="content absolute bottom-2 bg-white text-black  w-56 md:w-96 h-24 p-2 bg-opacity-80  font-semibold -left-72">
+                                <h1 class="text-lg">Single Page Website</h1>
+                                <p class="text-sm">Build with HTML, CSS and JS, this is an single Page Website
+
+                                </p>
+                            </div>
+
 
 
                         </div>
@@ -249,24 +314,34 @@
                 </div>
             </section>
             <section id="section4" class="relative min-h-full w-full bg-cover bg-center bg-no-repeat projects">
-                <div class="absolute flex flex-col justify-around h-5/6 w-5/6 lg:w-2/3 m-auto  bg-black right-0 left-0 lg:right-14  lg:left-auto top-0 bottom-0 opacity-80 text-white p-4 bg:p-24 overflow-scroll content-around"
+                <div class="absolute flex flex-col justify-around h-5/6 w-5/6 lg:w-2/3 m-auto  bg-black right-0 left-0 lg:right-14  lg:left-auto top-0 bottom-0 text-white p-4 bg:p-24 overflow-scroll content-around"
                     id="section4-container">
-                    <form name="contact" method="POST" data-netlify="true" class="w-1/2">
-                        <p>
-                            <label>Your Name: <input type="text" name="name" /></label>
-                        </p>
-                        <p>
-                            <label>Your Email: <input type="email" name="email" /></label>
-                        </p>
-                        <p>
-                            <label>Subject:  <input type="text" name="subject"/></label>
-                        </p>
-                        <p>
-                            <label>Message: <textarea name="message"></textarea></label>
-                        </p>
-                        <p>
-                            <button type="submit">Send</button>
-                        </p>
+                    <p>CONTACT ME</p>
+                    <form name="ContactThrewPortfolio" method="POST" data-netlify="true" class="w-full flex flex-col items-center h-full gap-2">
+                        <div class="input-group w-full">
+                            <input required="" type="text" name="name" autocomplete="off" class="input w-full">
+                            <label class="user-label" for="name">First Name</label>
+                        </div>
+                        <div class="input-group w-full">
+                            <input required="" type="email" name="email" autocomplete="off" class="input w-full">
+                            <label class="user-label" for="email">Email ID</label>
+                        </div>
+                        <div class="input-group w-full">
+                            <input required="" type="text" name="subject" autocomplete="off" class="input w-full">
+                            <label class="user-label" for="subject">Subject</label>
+                        </div>
+                        <div class="input-group w-full h-1/2">
+                            <input required="" type="text" name="message" autocomplete="off" class="input w-full h-full">
+                            <label class="user-label" for="message">Message</label>
+                        </div>
+                         
+                        <button class="submit" type="submit">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Send</span>
+                        </button>
+                         
                     </form>
 
 
